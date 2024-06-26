@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+#wrap {
+   width: 1200px;
+   margin-right: auto;
+   margin-left: auto;
+   height: auto;
+}
+#page_header {
+   float: left;
+   height: 100px;
+   width: 1200px;
+}
+.logo {
+   float: left;
+   height: 50px;
+   width: 200px;
+   margin-top: 25px;
+   margin-left: 470px;
+}
+.login {
+   float: right;
+   height: 20px;
+   width: 200px;
+   margin-right: 15px;
+   font-size: 14px;
+   margin-top: 5px;
+   text-align: right;
+}
+.search {
+   width: 300px;
+   float: right;
+   margin-top: 55px;
+   margin-right: -250px;
+}
+.search_img {
+   float: right;
+   width: 30px;
+}
+.search_txt {
+   float: left;
+   height: auto;
+   width: auto;
+}
+.menu_bar {
+   float: left;
+   height: auto;
+   width: 1200px;
+   color: #000;
+}
+#main {
+   float: left;
+   height: auto;
+   width: 1200px;
+   margin-top: 10px;
+   text-align: left;
+}
+#head_image {
+   float: left;
+   height: auto;
+   width: 1200px;
+   margin-top: 10px;
+}
+#footer {
+   float: left;
+   height: auto;
+   width: 1200px;
+   margin-top: 20px;
+   border-top-style: solid;
+   border-top-color: #FFF;
+}
+.footer {
+   float: right;
+   height: auto;
+   width: auto;
+   margin-right: 10px;
+   margin-top: 100px;
+}
+.top {
+   height: 60px;
+   width: 60px;
+   position: fixed;
+   z-index: 99;
+   right: 30px;
+   bottom: 30px;
+   background-image: url(../image/top.png);
+   background-repeat: no-repeat;
+}
+ul.MenuBarHorizontal
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	cursor: default;
+	width: auto;
+}
+ul.MenuBarActive
+{
+	z-index: 1000;
+}
+ul.MenuBarHorizontal li
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	position: relative;
+	text-align: center;
+	cursor: pointer;
+	width: 20%;
+	float: left;
+}
+ul.MenuBarHorizontal ul
+{
+	border: 1px solid #CCC;
+}
+/* Menu items are a light gray block with padding and no text decoration */
+ul.MenuBarHorizontal a
+{
+	display: block;
+	cursor: pointer;
+	background-color: none;
+	padding: 0.5em 0.75em;
+	color: none;
+	text-decoration: none;
+}
+/* Menu items that have mouse over or focus have a blue background and white text */
+ul.MenuBarHorizontal a:hover, ul.MenuBarHorizontal a:focus
+{
+	background-color: #006f3f;
+	color: #FFF;
+}
+/* Menu items that are open with submenus are set to MenuBarItemHover with a blue background and white text */
+ul.MenuBarHorizontal a.MenuBarItemHover, ul.MenuBarHorizontal a.MenuBarItemSubmenuHover, ul.MenuBarHorizontal a.MenuBarSubmenuVisible
+{
+	background-color: #006f3f;
+	color: #FFF;
+}
+
+.product {
+   float: left;
+   height: 330px;
+   width: 230px;
+   margin-right: 30px;
+   margin-bottom: 30px;
+   margin-left: 35px;
+   margin-top: 50px;
+}
+.productpic {
+   height: 300px;
+   width: 230px;
+}
+.price {
+   text-align: center;
+   vertical-align: middle;
+   height: 120px;
+}
+.cartpic {
+   width: 230px;
+   vertical-align: center;
+   height: 120px;
+}
+.container2{
+   height: 330px;
+   vertical-align: middle;
+   padding: 100px 0 100px 0;
+}
+.txttitle {
+   padding: 5px 10em 20px 2em;
+}
+.productdetail{
+   height: 4000px;
+   vertical-align: middle;
+}
+.picture, .picture1, .picture2, .picture3, .picture4, .picture5{
+	margin: auto;
+   height: 500px;
+   width: 400px;
+}
+.picture6{
+	margin: auto;
+   height: 150px;
+   width: 400px;
+}
+.picture7{
+	margin: auto;
+   height: 350px;
+   width: 400px;
+}
